@@ -1,1 +1,43 @@
-// TODO
+.posts {
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h2,
+  time,
+  span {
+    color: var(--gray-200);
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+.postInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  height: 2rem;
+  font-size: 0.9rem;
+
+  svg {
+    margin-right: 1rem;
+  }
+
+  svg ~ svg {
+    margin-left: 1rem;
+  }
+}
+
+.loadMoreButton {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: var(--pink-500);
+}
